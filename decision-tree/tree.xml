@@ -1,0 +1,467 @@
+<DecisionNode attribute="5" majority_target_value="unacc">
+  <DecisionNode attribute="3" majority_target_value="unacc" value="high">
+    <LeafNode value="2" targetValue="unacc"/>
+    <DecisionNode attribute="0" majority_target_value="acc" value="4">
+      <DecisionNode attribute="1" majority_target_value="acc" value="high">
+        <LeafNode value="high" targetValue="acc"/>
+        <LeafNode value="med" targetValue="acc"/>
+        <LeafNode value="vhigh" targetValue="unacc"/>
+        <LeafNode value="low" targetValue="acc"/>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="med">
+        <LeafNode value="high" targetValue="acc"/>
+        <DecisionNode attribute="4" majority_target_value="acc" value="med">
+          <LeafNode value="small" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+            <LeafNode value="4" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+        <LeafNode value="vhigh" targetValue="acc"/>
+        <DecisionNode attribute="4" majority_target_value="vgood" value="low">
+          <LeafNode value="small" targetValue="good"/>
+          <DecisionNode attribute="2" majority_target_value="good" value="med">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="2" targetValue="good"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+            <LeafNode value="4" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="unacc" value="vhigh">
+        <LeafNode value="high" targetValue="unacc"/>
+        <LeafNode value="med" targetValue="acc"/>
+        <LeafNode value="vhigh" targetValue="unacc"/>
+        <LeafNode value="low" targetValue="acc"/>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="low">
+        <DecisionNode attribute="4" majority_target_value="vgood" value="high">
+          <LeafNode value="small" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+            <LeafNode value="4" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="good" value="med">
+          <LeafNode value="small" targetValue="good"/>
+          <DecisionNode attribute="2" majority_target_value="good" value="med">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="2" targetValue="good"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+        <LeafNode value="vhigh" targetValue="acc"/>
+        <DecisionNode attribute="4" majority_target_value="good" value="low">
+          <LeafNode value="small" targetValue="good"/>
+          <DecisionNode attribute="2" majority_target_value="good" value="med">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+      </DecisionNode>
+    </DecisionNode>
+    <DecisionNode attribute="0" majority_target_value="acc" value="more">
+      <DecisionNode attribute="1" majority_target_value="acc" value="high">
+        <DecisionNode attribute="2" majority_target_value="acc" value="high">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="med" targetValue="acc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="2" majority_target_value="acc" value="med">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="med" targetValue="acc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <LeafNode value="vhigh" targetValue="unacc"/>
+        <DecisionNode attribute="2" majority_target_value="acc" value="low">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="med" targetValue="acc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="med">
+        <DecisionNode attribute="2" majority_target_value="acc" value="high">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="med" targetValue="acc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="vgood" value="med">
+          <DecisionNode attribute="2" majority_target_value="acc" value="small">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <DecisionNode attribute="2" majority_target_value="vgood" value="med">
+            <LeafNode value="3" targetValue="vgood"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+        <DecisionNode attribute="2" majority_target_value="acc" value="vhigh">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="med" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="vgood" value="low">
+          <DecisionNode attribute="2" majority_target_value="unacc" value="small">
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+          <LeafNode value="med" targetValue="vgood"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="unacc" value="vhigh">
+        <LeafNode value="high" targetValue="unacc"/>
+        <DecisionNode attribute="2" majority_target_value="acc" value="med">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <LeafNode value="vhigh" targetValue="unacc"/>
+        <DecisionNode attribute="2" majority_target_value="acc" value="low">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="vgood" value="low">
+        <DecisionNode attribute="4" majority_target_value="vgood" value="high">
+          <DecisionNode attribute="2" majority_target_value="acc" value="small">
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <DecisionNode attribute="2" majority_target_value="vgood" value="med">
+            <LeafNode value="3" targetValue="vgood"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="vgood"/>
+            <LeafNode value="4" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="vgood" value="med">
+          <DecisionNode attribute="2" majority_target_value="good" value="small">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+          <LeafNode value="med" targetValue="vgood"/>
+        </DecisionNode>
+        <DecisionNode attribute="2" majority_target_value="acc" value="vhigh">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="med" targetValue="acc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="vgood" value="low">
+          <DecisionNode attribute="2" majority_target_value="good" value="small">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <DecisionNode attribute="2" majority_target_value="vgood" value="med">
+            <LeafNode value="3" targetValue="vgood"/>
+            <LeafNode value="2" targetValue="good"/>
+            <LeafNode value="4" targetValue="vgood"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="vgood"/>
+        </DecisionNode>
+      </DecisionNode>
+    </DecisionNode>
+  </DecisionNode>
+  <DecisionNode attribute="3" majority_target_value="unacc" value="med">
+    <LeafNode value="2" targetValue="unacc"/>
+    <DecisionNode attribute="0" majority_target_value="acc" value="4">
+      <DecisionNode attribute="4" majority_target_value="unacc" value="high">
+        <LeafNode value="small" targetValue="unacc"/>
+        <DecisionNode attribute="2" majority_target_value="unacc" value="med">
+          <LeafNode value="3" targetValue="unacc"/>
+          <LeafNode value="2" targetValue="unacc"/>
+          <LeafNode value="5more" targetValue="acc"/>
+          <DecisionNode attribute="1" majority_target_value="acc" value="4">
+            <LeafNode value="high" targetValue="acc"/>
+            <LeafNode value="med" targetValue="acc"/>
+            <LeafNode value="vhigh" targetValue="unacc"/>
+            <LeafNode value="low" targetValue="acc"/>
+          </DecisionNode>
+        </DecisionNode>
+        <DecisionNode attribute="1" majority_target_value="acc" value="big">
+          <LeafNode value="high" targetValue="acc"/>
+          <LeafNode value="med" targetValue="acc"/>
+          <LeafNode value="vhigh" targetValue="unacc"/>
+          <LeafNode value="low" targetValue="acc"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="med">
+        <DecisionNode attribute="4" majority_target_value="unacc" value="high">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="unacc" value="med">
+            <LeafNode value="3" targetValue="unacc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <LeafNode value="med" targetValue="acc"/>
+        <DecisionNode attribute="4" majority_target_value="acc" value="vhigh">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="unacc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="good" value="low">
+          <LeafNode value="small" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="good"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="unacc" value="vhigh">
+        <LeafNode value="high" targetValue="unacc"/>
+        <DecisionNode attribute="4" majority_target_value="unacc" value="med">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="unacc" value="med">
+            <LeafNode value="3" targetValue="unacc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <LeafNode value="vhigh" targetValue="unacc"/>
+        <DecisionNode attribute="4" majority_target_value="unacc" value="low">
+          <LeafNode value="small" targetValue="unacc"/>
+          <LeafNode value="big" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="low">
+        <LeafNode value="high" targetValue="acc"/>
+        <DecisionNode attribute="4" majority_target_value="acc" value="med">
+          <LeafNode value="small" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="good" value="med">
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="good"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="acc" value="vhigh">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="acc" value="low">
+          <LeafNode value="small" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="good"/>
+        </DecisionNode>
+      </DecisionNode>
+    </DecisionNode>
+    <DecisionNode attribute="0" majority_target_value="acc" value="more">
+      <DecisionNode attribute="4" majority_target_value="unacc" value="high">
+        <LeafNode value="small" targetValue="unacc"/>
+        <DecisionNode attribute="1" majority_target_value="acc" value="med">
+          <LeafNode value="high" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="vhigh" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="low">
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+        </DecisionNode>
+        <DecisionNode attribute="1" majority_target_value="acc" value="big">
+          <LeafNode value="high" targetValue="acc"/>
+          <LeafNode value="med" targetValue="acc"/>
+          <LeafNode value="vhigh" targetValue="unacc"/>
+          <LeafNode value="low" targetValue="acc"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="med">
+        <DecisionNode attribute="4" majority_target_value="acc" value="high">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="2" majority_target_value="acc" value="med">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="acc" value="vhigh">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="good" value="low">
+          <LeafNode value="small" targetValue="acc"/>
+          <DecisionNode attribute="2" majority_target_value="good" value="med">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="good"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="unacc" value="vhigh">
+        <LeafNode value="high" targetValue="unacc"/>
+        <DecisionNode attribute="4" majority_target_value="acc" value="med">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <LeafNode value="vhigh" targetValue="unacc"/>
+        <DecisionNode attribute="4" majority_target_value="acc" value="low">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+      </DecisionNode>
+      <DecisionNode attribute="1" majority_target_value="acc" value="low">
+        <DecisionNode attribute="2" majority_target_value="acc" value="high">
+          <LeafNode value="3" targetValue="acc"/>
+          <DecisionNode attribute="4" majority_target_value="acc" value="2">
+            <LeafNode value="small" targetValue="unacc"/>
+            <LeafNode value="big" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="5more" targetValue="acc"/>
+          <LeafNode value="4" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="good" value="med">
+          <DecisionNode attribute="2" majority_target_value="acc" value="small">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <DecisionNode attribute="2" majority_target_value="good" value="med">
+            <LeafNode value="3" targetValue="good"/>
+            <LeafNode value="2" targetValue="acc"/>
+            <LeafNode value="5more" targetValue="good"/>
+            <LeafNode value="4" targetValue="good"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="good"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="acc" value="vhigh">
+          <LeafNode value="small" targetValue="unacc"/>
+          <DecisionNode attribute="2" majority_target_value="acc" value="med">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="acc"/>
+        </DecisionNode>
+        <DecisionNode attribute="4" majority_target_value="good" value="low">
+          <DecisionNode attribute="2" majority_target_value="acc" value="small">
+            <LeafNode value="3" targetValue="acc"/>
+            <LeafNode value="2" targetValue="unacc"/>
+            <LeafNode value="5more" targetValue="acc"/>
+            <LeafNode value="4" targetValue="acc"/>
+          </DecisionNode>
+          <LeafNode value="big" targetValue="good"/>
+          <LeafNode value="med" targetValue="good"/>
+        </DecisionNode>
+      </DecisionNode>
+    </DecisionNode>
+  </DecisionNode>
+  <LeafNode value="low" targetValue="unacc"/>
+</DecisionNode>
+
